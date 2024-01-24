@@ -1,13 +1,17 @@
 {
   "name": "thabhelo-portfolio",
   "private": true,
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "version": "2.0.0-beta.0",
-  "author": "",
+  "author": "Thabhelo Duve",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "npm run build && next export && mv out _static"
+  },
+  "engines": {
+    "node": "21.6"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",

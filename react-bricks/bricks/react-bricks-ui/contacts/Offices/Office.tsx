@@ -44,8 +44,8 @@ Office.schema = {
   playgroundLinkLabel: 'View source code on Github',
   playgroundLinkUrl: '',
   getDefaultProps: () => ({
-    contactTitle: 'San Francisco',
-    contactAddress: '3319 Harrison Street\nSan Francisco, CA',
+    contactTitle: 'Talladega',
+    contactAddress: '8648 Gwabalanda Street\nTalladega, AL',
   }),
   sideEditProps: [],
 }
